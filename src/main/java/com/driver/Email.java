@@ -44,7 +44,7 @@ public class Email {
             if(val >= 'A' && val <= 'Z'){
                 containsUppercase = true;
             }
-            else if(val >= '0' && val >= '9'){
+            else if(val >= '0' && val <= '9'){
                 containsDigit = true;
             }
             else if(val >= 'a' && val <= 'z'){
